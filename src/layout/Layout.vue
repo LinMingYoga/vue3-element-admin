@@ -85,8 +85,8 @@
 <script>
 import { onBeforeMount, reactive, toRefs } from "vue";
 import { useRouter } from "vue-router";
-import HeadMenu from "../components/HeadMenu.vue";
-import Logo from "../assets/logo.png";
+import HeadMenu from "@/components/HeadMenu.vue";
+import Logo from "@/assets/logo.png";
 
 export default {
   components: {

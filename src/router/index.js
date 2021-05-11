@@ -1,7 +1,7 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
 import NProgress from 'nprogress'
 import 'nprogress/nprogress.css'
-import Layout from "../layout/Layout.vue"
+import Layout from "@/layout/Layout.vue"
 
 const routes = [{
     path: '/',
@@ -14,7 +14,7 @@ const routes = [{
       title: "登录",
       requireAuth: false
     },
-    component: () => import('../views/Login/index.vue')
+    component: () => import('@/views/Login/index.vue')
   },
   {
     path: '/main',
@@ -33,7 +33,7 @@ const routes = [{
         title: "首页",
         requireAuth: true
       },
-      component: () => import('../views/Home/index.vue')
+      component: () => import('@/views/Home/index.vue')
     }]
   },
   {

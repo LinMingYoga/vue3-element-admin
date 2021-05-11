@@ -10,9 +10,9 @@
 </template>
 
 <script>
-import BarEchart from '../../components/Echart/BarEchart.vue'
-import ChartPie from '../../components/Echart/ChartPie.vue'
-import ChartLine from '../../components/Echart/ChartLine.vue'
+import BarEchart from '@/components/Echart/BarEchart.vue'
+import ChartPie from '@/components/Echart/ChartPie.vue'
+import ChartLine from '@/components/Echart/ChartLine.vue'
 export default {
   components: {
     BarEchart,

@@ -42,8 +42,8 @@
     import {useStore} from 'vuex'
     // import {login} from '@/api/serviceApi'
     import {ElMessage} from "element-plus"
-    import VueImgVerify from '../../components/VueImageVerify.vue'
-    import LogoImg from '../../assets/logo.png'
+    import VueImgVerify from '@/components/VueImageVerify.vue'
+    import LogoImg from '@/assets/logo.png'
 
     export default {
         setup() {
