@@ -5,7 +5,7 @@
         <div class="aside-logo" @click="onRefresh">
           <el-image class="logo-image" :src="logo" fit="contain" />
           <span :class="[isCollapse ? 'is-collapse' : '']">
-            <span>后台管理系统1</span>
+            <span>后台管理系统</span>
           </span>
         </div>
       </el-affix>
@@ -105,6 +105,7 @@ export default {
     });
 
     onBeforeMount(() => {
+      console.log(router.options.routes);
       state.routers = router.options.routes;
     });
 
